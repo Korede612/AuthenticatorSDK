@@ -14,9 +14,7 @@ class AuthenticatorViewModel {
     // MARK: - Combine Subject
     public var userDetailsPublisher = PassthroughSubject<[String: String], Never>()
     
-    init() {
-        
-    }
+    init() { }
     
     // MARK: - Validation Methods
     func isValidEmail(_ email: String) -> Bool {
