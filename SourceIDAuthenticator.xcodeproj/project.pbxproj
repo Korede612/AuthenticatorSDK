@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9300F2CB2DC7AECC009CC219 /* SourceIDAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9300F2C02DC7AECC009CC219 /* SourceIDAuthenticator.framework */; };
+		9300F4072DC99987009CC219 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9300F4062DC99986009CC219 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		9300F2C02DC7AECC009CC219 /* SourceIDAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SourceIDAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9300F2CA2DC7AECC009CC219 /* SourceIDAuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceIDAuthenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9300F4062DC99986009CC219 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,7 +75,8 @@
 		9300F2B62DC7AECC009CC219 = {
 			isa = PBXGroup;
 			children = (
-				9300F2C22DC7AECC009CC219 /* SourceIDAuthenticator */,
+				9300F4082DC99994009CC219 /* Sources */,
+				9300F4062DC99986009CC219 /* Package.swift */,
 				9300F2CE2DC7AECC009CC219 /* SourceIDAuthenticatorTests */,
 				9300F2C12DC7AECC009CC219 /* Products */,
 			);
@@ -86,6 +89,14 @@
 				9300F2CA2DC7AECC009CC219 /* SourceIDAuthenticatorTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9300F4082DC99994009CC219 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9300F2C22DC7AECC009CC219 /* SourceIDAuthenticator */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9300F4072DC99987009CC219 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
